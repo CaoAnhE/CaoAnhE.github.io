@@ -1,0 +1,23 @@
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+}
+.box {
+	border: 1px solid #dddddd;
+	border-top-width: 5px;
+	float: left;
+	width: 33%;
+}
+.car1 {
+	border-color: black;
+}
+.car2 {
+	border-color: green;
+}
+.car3 {
+	border-color: yellow;
+}
