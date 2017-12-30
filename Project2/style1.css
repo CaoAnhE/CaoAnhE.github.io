@@ -1,6 +1,13 @@
 *{
 	box-sizing: border-box;
 }
+span {
+	color: red;
+}
+p {
+	text-align: center;
+	font-size: 33px;
+}
 .wrap {
 	max-width: 1000px;
 	margin: auto;
@@ -8,12 +15,52 @@
 img {
 	max-width: 100%;
 }
+
+/*Style box1*/
 .box {
-	border: 1px solid #dddddd;
-	border-top-width: 5px;
+	padding: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 5px;
 	float: left;
 	width: 33%;
 }
+.box img:hover{
+	border-radius: 50%;
+}
+
 .box img{
 	height: 300px;
+}
+
+/*Style box2*/
+.box2 {
+	padding: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 5px;
+	float: left;
+	width: 33%;
+}
+.box2 img:hover{
+	border-radius: 50%;
+}
+.box2 img{
+	height: 300px;
+}
+
+/*Style box3*/
+.box3 {
+	padding: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 5px;
+	float: left;
+	width: 33%;
+}
+.box3 img{
+	height: 300px;
+}
+.box3 img:hover{
+	border-radius: 50%;
 }
