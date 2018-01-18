@@ -118,17 +118,17 @@ section {
 #info5 {
 	margin-left: 187px;
 }
-span1 {
+span-1 {
 	font-family: cocabold;
 	padding-left: 26px;
 	font-size: 15px;
 }
-span2 {
+span-2 {
 	font-family: semibold;
 	color: grey;
 	font-size: 13px;
 }
-span3 {
+span-3 {
 	padding-left: 30px;
 	font-family: semibold;
 	color: red;
@@ -142,5 +142,52 @@ span3 {
 	top: 1363px;
     right: 222px;
 }
+#sale-off1 {
+	position: absolute;
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+span-sale4{
+	color: red;
+	border: red 1px solid;
+	padding: 15px 30px;
+	border-radius: 20px;
+	display: inline-block;
+    margin: 10px;
+}
+span-sale3{
+	font-family: cocabold;
+	font-size: 20px;
+	color: grey;
+}
+span-sale1{
+	font-family: cocabold;
+	font-size: 30px;
+}
+span-sale2{
+	font-family: semibold;
+	color:grey;
+	font-size:12px;
+}
 
+#number-sale {
 
+	color: red;
+	border: white 1px solid;
+	height: 166px;
+	width: 165px;
+	border-radius: 50%;
+	text-align: center;
+	padding:15px;
+	position: absolute;
+	top: 1466px;
+    left: 140px;
+    background-color: white;
+}
+#number-sale p{
+	font-family: cocabold;
+	color:red;
+	font-size: 45px;
+	margin: 0px;
+}
