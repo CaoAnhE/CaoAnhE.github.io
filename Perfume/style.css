@@ -1,0 +1,33 @@
+body, body *{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: bruselo;
+	src : url(Bruselo-Script.ttf);
+	font-weight: normal;
+	font-size: normal;
+}
+.container {
+	position: relative;
+    bottom: 824px;
+}
+#banner {
+	position: relative;
+	bottom: 353px;
+	text-align: center;
+}
+span {
+	color: white;
+	font-family: bruselo;
+	font-size: 80.54pt;
+}
+.navbar-header a{
+	margin-right: 307px;
+}
+#bs-example-navbar-collapse-1 a{
+	color: white;
+	font-size: 14px;
+}
