@@ -22,6 +22,18 @@ body, body *{
 	font-weight: normal;
 	font-size: medium;
 }
+@font-face {
+	font-family: readmore;
+	src : url(TodaySHOP-MediumItalic_44891.ttf);
+	font-weight: normal;
+	font-size: medium;
+}
+@font-face {
+	font-family: heading;
+	src : url(todayshop-medium.otf);
+	font-weight: normal;
+	font-size: medium;
+}
 header {
 	height: 523px;
 }
@@ -47,6 +59,9 @@ span {
 	color: white;
 	font-size: 14px;
 }
+#content1 {
+	height: 355px;
+}
 section {
 	max-width: 1280px;
 	text-align: center;
@@ -56,7 +71,9 @@ section {
 	display: inline-block;
 	max-width: 960px;
 }
-
+.title1 {
+	width: 500px;
+}
 .col-md-3 h1{
 	font-family: heading;
 	font-size: 15pt;
@@ -72,9 +89,14 @@ section {
 	text-align: left;
 	padding-left: 100px;
 }
+.title1 hr{
+	width: 486px;
+	border-top: 1px solid #9d9d9d63;
+	margin-bottom: 2px;
+}
 .col-md-6 h1{
 	font-family: heading;
-	font-size: 15pt;
+	font-size: 14pt;
 	text-align: left;
 	padding-left: 100px;
 }
@@ -89,3 +111,94 @@ section {
 #blog2 {
 	margin-top: -3px;
 }
+#logo {
+    position: absolute;
+    top: 9px;
+    left: 3px;
+	border-radius: 50%;
+	background-color: #ffd627;
+	width: 90px;
+	height: 90px;
+}
+span-1 {
+	font-family: paragraph;
+	font-size: 9.63pt;
+    margin-left: 11px;
+}
+span-2 {
+	font-family: times;
+	font-size: 51.64pt;
+	position: relative;
+    bottom: 26px;
+    right: -1px;
+}
+span-3 {
+	font-family: times;
+	font-size: 39.07pt;
+	position: relative;
+    bottom: 37px;
+    left: -4px;
+}
+span-4 {
+	font-family: paragraph;
+	font-size: 12pt;
+	position: relative;
+    bottom: 64px;
+    left: 16px;
+}
+#content2 {
+	height: 550px;
+}
+
+.col-md-6 hr {
+	margin-bottom: 0px;
+	margin-top: 16px;
+	width: 480px;
+	border-top: 1px solid #9d9d9d63;
+}
+.col-md-6 a{
+	position: absolute;
+	bottom: 50px;
+	right: 6px;
+	font-family: readmore;
+	background-color: #ffd627; 
+    color: #9c8007;
+    font-size: 14pt;
+    width: 80px;
+    height: 30px;
+    padding-top: 3px;
+}
+#content3 {
+	padding-left: 95px;
+}
+#about-us p{
+	font-family: paragraph;
+	color: #666666;
+	font-size: 14pt;
+}
+.recent1 {
+	padding-right: 20px;
+}
+#photo1 {
+	float: left;
+}
+
+#post1 {
+	margin-top: 0px;
+}
+.blog1 hr{
+	border-top: 1px solid #9d9d9d63;
+}
+span-6{
+	font-family: paragraph;
+	color: #999999;
+	font-size: 14pt;
+}
+span-5{
+	font-family: paragraph;
+	font-size: 14pt;
+}
+#twitter-buzz hr{
+	border-top: 1px solid #9d9d9d63;
+}
+
