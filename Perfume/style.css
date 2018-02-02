@@ -201,4 +201,36 @@ span-5{
 #twitter-buzz hr{
 	border-top: 1px solid #9d9d9d63;
 }
-
+#time1 {
+	background-color: #ffd627;
+	position: absolute;
+    top: 147px;
+    right: 15px;  
+    width: 70px;
+    height: 20px;    
+}
+#time1 p{
+	text-align: center;
+}
+#time2 {
+    position: relative;
+    background-color: #ffd627;
+    bottom: -123px;
+    left: 165px;
+    width: 70px;
+    height: 20px;   
+}
+#time2 p{
+	text-align: center;
+}
+#time3 {
+    background-color: #ffd627;
+    position: absolute;
+    right: 15px;
+    width: 70px;
+    height: 20px;
+    bottom: 20px;
+}
+#time3 p{
+	text-align: center;
+}
