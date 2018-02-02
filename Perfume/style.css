@@ -234,3 +234,20 @@ span-5{
 #time3 p{
 	text-align: center;
 }
+#pages a{
+	text-decoration: none;
+	float: left;
+	color: black;
+	font-family: paragraph;
+	font-size: 13pt;
+	padding-left: 12px;
+}
+#pages hr{
+	border-top: 1px solid #9d9d9d63;
+	margin-top: 67px;
+}
+.container hr{
+	border-top: 1px solid #9d9d9d63;
+	margin-left: 460px;
+    margin-right: 389px;
+}
